@@ -235,3 +235,7 @@ thead tr:first-child:hover td:nth-child(even){ background-color: transparent; }
 div.table table.table {
   background-color: transparent;
 }
+
+td>ul{
+  margin-left:-1.2em;
+}
