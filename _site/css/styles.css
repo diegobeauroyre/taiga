@@ -44,6 +44,14 @@ p {
 #first{
 	text-align: center;
 	color: #474747;
+	background-color: #00cc99;
+	padding-top: 75px;
+	padding-bottom: 75px;
+}
+
+#video{
+	text-align: center;
+	color: #474747;
 	background-color: #EEEEEE;
 	padding-top: 75px;
 	padding-bottom: 75px;
@@ -58,7 +66,7 @@ p {
 
 #objetivos {
 	text-align: center;
-	background-color: #EEEEEE;
+	background-color: #dbdbdb;
 	padding-top: 50px;
 	padding-bottom: 80px;
 }
@@ -110,7 +118,7 @@ a.btn.btn-default:hover {
 }
 
 .high-margins {
-  margin: 3em 0;
+  margin: 40px;
 }
 .event-container {
   margin-top: 2em;
@@ -173,7 +181,9 @@ a:hover, a:active, a:focus {
 }
 
 .add-top-separation {
-	margin-top: 20px;
+	margin-top: 60px;
+    margin-bottom: 60px;
+
 }
 
 .linkfooter {
@@ -234,4 +244,8 @@ thead tr:first-child:hover td:nth-child(even){ background-color: transparent; }
 
 div.table table.table {
   background-color: transparent;
+}
+
+td>ul{
+  margin-left:-1.2em;
 }
