@@ -49,6 +49,14 @@ p {
 	padding-bottom: 75px;
 }
 
+#pagesgray{
+	text-align: center;
+	color: #474747;
+	background-color: #eeeeee;
+	padding-top: 75px;
+	padding-bottom: 75px;
+}
+
 #video{
 	text-align: center;
 	color: #474747;
