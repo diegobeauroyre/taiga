@@ -164,7 +164,9 @@ p {
 	padding-top: 30px;
 	padding-bottom: 50px;
 }
-
+.titulo-mapa{
+    font-size:1.43em;
+}
 h2.titulo {
 	font-weight: 700;
 	margin-bottom: 60px;
