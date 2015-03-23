@@ -278,6 +278,14 @@ a:hover, a:active, a:focus {
 	padding-top: 50px;
 }
 
+footer  a {
+    color:#00CC99;
+}
+
+footer  a:focus, footer a:hover, footer a:active {
+  color:#00ff99;
+}
+
 .add-top-separation {
 	margin-top: 60px;
     margin-bottom: 60px;
