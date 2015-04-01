@@ -17,12 +17,11 @@ p {
 	font-family: "Courier New" !important;
 	font-size: 11px;
 	text-align: left;
-	color: #474747;
 }
 
 .navbar-inverse {
     background-color: #f6f6f6;
-    border-color: #545554;
+    border-color: #f6f6f6;
 }
 
 .navbar-header{
@@ -34,8 +33,15 @@ p {
 	font-size: 12px;
 }
 
+.navbar-inverse .navbar-toggle {
+    border-color: #999;
+    background-color: #999;
+    
+}
+
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus{
   background-color:#dee2e7;
+ color: #474747;
 }
 
 .navbar-fixed-top {
@@ -111,11 +117,23 @@ p {
 }
 
 #first{
+    color: #ffffff;
 	text-align: center;
-	color: #474747;
 	background-color: #f6f6f6;
 	padding-top: 75px;
 	padding-bottom: 0px;
+    background-image: url(../images/ezequiel05.jpg); 
+    background-size: cover;
+    min-height: 400px;
+    background-repeat: no-repeat;
+
+}
+
+@media screen and (max-width: 600px) {
+    first {
+       height: 600px;
+    }
+
 }
 
 #pagesgray{
@@ -143,7 +161,7 @@ p {
 
 #objetivos {
 	text-align: center;
-	background-color: #dbdbdb;
+	background-color: #f6f6f6;
 	padding-top: 50px;
 	padding-bottom: 80px;
 }
@@ -164,12 +182,18 @@ p {
 }
 .titulo-mapa{
     font-size:1.43em;
+    text-align: center;
 }
 
 h2.titulo {
 	font-size: 14px;
     font-weight: bold;
     margin-bottom: 60px;
+}
+
+h1 {
+    font-size: 14px;
+    font-weight: 800;
 }
 
 h2 {
@@ -221,6 +245,10 @@ h2.titlebold {
   margin-top: 2em;
 }
 
+container {
+  max-width: 967px;
+}
+
 .event {
   font-size: 1.1em;
   font-weight: 700;
@@ -256,7 +284,9 @@ a:hover, a:active, a:focus {
 }
 
 .col-md-4 {
-	text-align: left;
+	text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .scroll-link {
@@ -285,10 +315,20 @@ footer  a:focus, footer a:hover, footer a:active {
   color:#00ff99;
 }
 
+
+.tagline-landing {
+	margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 10px;
+    background-color: #f6f6f6;
+    max-width: 400px;
+    color: #474747;
+
+}
+
 .add-top-separation {
 	margin-top: 60px;
     margin-bottom: 60px;
-
 }
 
 .linkfooter {
@@ -353,4 +393,30 @@ div.table table.table {
 
 td>ul{
   margin-left:-1.2em;
+}
+
+
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+body { margin: 0; } 
+div#slider { overflow: hidden; }
+div#slider figure img { width: 20%; float: left; }
+div#slider figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite; 
 }
