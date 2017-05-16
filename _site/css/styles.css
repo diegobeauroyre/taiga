@@ -119,12 +119,11 @@ p {
 #first{
     color: #ffffff;
 	text-align: center;
+    width:100%;
 	background-color: #f6f6f6;
 	padding-top: 75px;
 	padding-bottom: 0px;
-    background-image: url(../images/ezequiel05.jpg); 
-    background-size: cover;
-    min-height: 400px;
+    background-image: url(../images/fondotaiga.jpg); 
     background-repeat: no-repeat;
 
 }
