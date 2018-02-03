@@ -1,0 +1,15 @@
+---
+published: true
+layout: "post"
+title: 'Resonar'
+excerpt: "Publicación en colaboración con Centro de diseño, cine y televisión y Taller de comunicación gráfica."
+date: 2015-02-16
+cover: "posts/resonar-01.jpg"
+cover_photo: "posts/resonar-01.jpg"
+permalink: "/resonar.html"
+section: proyectos
+category: editorial
+category_title: editorial
+---
+
+Publicación en colaboración con Centro de diseño, cine y televisión y Taller de comunicación gráfica.

@@ -1,6 +1,7 @@
-Taiga
+d—h—b
+=======
 
-======
+Grafista | Mexico
 
-Taiga es un espacio de intercambio 
-de conocimiento y producción de cerámica.
+Dependencias:
+* Jekyll: Generador de páginas estáticas

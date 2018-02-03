@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <description></description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Fri, 02 Feb 2018 19:04:35 -0600</pubDate>
+    <lastBuildDate>Fri, 02 Feb 2018 19:04:35 -0600</lastBuildDate>
+    <generator>Jekyll v2.3.0</generator>
+    
+      <item>
+        <title>Resonar</title>
+        <description>&lt;p&gt;Publicación en colaboración con Centro de diseño, cine y televisión y Taller de comunicación gráfica.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 16 Feb 2015 00:00:00 -0600</pubDate>
+        <link>/resonar.html</link>
+        <guid isPermaLink="true">/resonar.html</guid>
+        
+        
+        <category>editorial</category>
+        
+      </item>
+    
+  </channel>
+</rss>

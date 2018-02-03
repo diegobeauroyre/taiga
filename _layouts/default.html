@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+<body class="{{ page.class }}">
+
+<div class="wrapper">
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="pull-left">
+      <div class="logo">
+        <a href="{{ site.root_url }}"><b>taiga</b> | cerámica de alta temperartura</a> |
+        <a href="{{ site.root_url }}{{ page.back_path }}">sobre nosotros</a> |
+        <a href="https://drive.google.com/file/d/1H6ukvLubT8U5MkLgCxuc1JRKrMGGCvpU/view?usp=sharing" target="_blank"><b>catálogo 2018</b></a> | Pronto tienda en línea: ABRIL 2018
+
+      </div>
+    </div>
+    </div>
+    </div>
+    <div class="navbar-right">
+        <!-- <a class="navbar-brand" href="{{ site.root_url }}{{ page.back_path }}">{{ page.back_label }}--></a>
+    </div>
+
+  </div>
+</div>
+
+  <div class="alert" style="display: none"></div>
+  {{ content }}
+</div>
+
+<div class="wrapper footer">
+
+      {% include footer.html %}
+
+</div>
+
+
+</body>
+</html>
